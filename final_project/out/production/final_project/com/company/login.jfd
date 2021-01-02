@@ -1,0 +1,639 @@
+JFDML JFormDesigner: "7.0.2.6.321" Java: "11.0.7" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+			"$layoutConstraints": "hidemode 3"
+			"$columnConstraints": "[fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill]"
+			"$rowConstraints": "[][][][][][][][][][]"
+		} ) {
+			name: "login"
+			"title": "welcome:)"
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button1"
+				"text": "officer"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button1MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 4 2 6 2"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button2"
+				"text": "driver"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button2MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 5 6 4 2"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 5 )
+			"size": new java.awt.Dimension( 305, 220 )
+		} )
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+			"$layoutConstraints": "hidemode 3"
+			"$columnConstraints": "[fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill]"
+			"$rowConstraints": "[][][][][][][][][][][][][][]"
+		} ) {
+			name: "officer"
+			"title": "officer"
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField1"
+				"text": "officer code:"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "textField1MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 8 1 19 2"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField2"
+				"text": "password:"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "textField2MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 8 3 19 1"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField15"
+				"text": "name:"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "textField15MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 8 4 19 1"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField16"
+				"text": "Car owner name:"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "textField16MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 8 5 19 1"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField17"
+				"text": "car's plaque number:"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "textField17MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 8 6 19 1"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField18"
+				"text": "Car owner certificate number:"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "textField18MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 8 7 19 1"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField19"
+				"text": " card number:"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "textField19MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 8 8 19 1"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField20"
+				"text": "Car owner insurance policy number:"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "textField20MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 8 9 19 1"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button3"
+				"text": "ok"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button3MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 27 13 3 1"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 570 )
+			"size": new java.awt.Dimension( 500, 725 )
+		} )
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+			"$layoutConstraints": "hidemode 3"
+			"$columnConstraints": "[fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill]"
+			"$rowConstraints": "[][][][][][][]"
+		} ) {
+			name: "driver"
+			"title": "driver"
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField3"
+				"text": "name of driver:"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "textField3MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 4 1 8 1"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField4"
+				"text": "number of Plaque:"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "textField4MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 4 2 8 1"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField21"
+				"text": "Car owner certificate number:"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "textField21MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 4 3 8 1"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField22"
+				"text": " card number:"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "textField22MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 4 4 8 1"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField23"
+				"text": "Car owner insurance policy number:"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "textField23MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 4 5 8 1"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button4"
+				"text": "ok"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button4MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 13 6"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 230 )
+			"size": new java.awt.Dimension( 475, 330 )
+		} )
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+			"$layoutConstraints": "hidemode 3"
+			"$columnConstraints": "[fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill]"
+			"$rowConstraints": "[][][][][][][]"
+		} ) {
+			name: "officertable"
+			"title": "officer table"
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button7"
+				"text": "Inquiry of violations and nagative score"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button7MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 4 0"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button9"
+				"text": "Record violations and negative scores and the amount of fines each"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button9MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 4 1"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button10"
+				"text": "Accident registration"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button10MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 4 2"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button5"
+				"text": "Inquiry into traffic accidents"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button5MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 4 3"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 505, 550 )
+			"size": new java.awt.Dimension( 465, 235 )
+		} )
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+			"$layoutConstraints": "hidemode 3"
+			"$columnConstraints": "[fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill]"
+			"$rowConstraints": "[][][][][][][]"
+		} ) {
+			name: "drivertable"
+			"title": "driver table"
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button11"
+				"text": "Municipal services (receive traffic plan)"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button11MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 2 1 7 1"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button12"
+				"text": "Road services (online payment of registered electric tolos)"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button12MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 2 2 7 1"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button13"
+				"text": "Inquiry a negative score and violation"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button13MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 2 3 7 1"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 485, 255 )
+			"size": new java.awt.Dimension( 450, 210 )
+		} )
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+			"$layoutConstraints": "hidemode 3"
+			"$columnConstraints": "[fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill]"
+			"$rowConstraints": "[][][][][][][][][][][][][]"
+		} ) {
+			name: "frame1"
+			"title": "Record violations and negative scores and the amount of fines each"
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField5"
+				"text": "time:"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "textField5MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 7 1 11 1"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField6"
+				"text": "date:"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "textField6MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 7 2 11 1"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField7"
+				"text": "negative point:"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "textField7MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 7 3 11 1"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField8"
+				"text": "The amount of fines:"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "textField8MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 7 4 11 1"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField34"
+				"text": "violation:"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "textField34MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 7 5 11 1"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button6"
+				"text": "ok"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button6MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 18 12"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 515, 845 )
+			"size": new java.awt.Dimension( 410, 450 )
+		} )
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+			"$layoutConstraints": "hidemode 3"
+			"$columnConstraints": "[fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill]"
+			"$rowConstraints": "[][][][][][][][]"
+		} ) {
+			name: "frame4"
+			"title": "Accident registration"
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField29"
+				"text": "time:"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "textField29MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 3 1 7 1"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField26"
+				"text": "date:"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "textField26MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 3 2 7 1"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField27"
+				"text": "Description of accidents:"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "textField27MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 3 11 2"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button18"
+				"text": "ok"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button18MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 10 7"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 1360, 850 )
+			"size": new java.awt.Dimension( 360, 295 )
+		} )
+		add( new FormWindow( "javax.swing.JDialog", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+			"$layoutConstraints": "hidemode 3"
+			"$columnConstraints": "[fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill]"
+			"$rowConstraints": "[][][][][][][][][][]"
+		} ) {
+			name: "dialog1"
+			"title": "Inquiry of violations and nagative score"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "text"
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 0 19 8"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button14"
+				"text": "exit"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button14MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 16 8"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 945, 845 )
+			"size": new java.awt.Dimension( 390, 300 )
+		} )
+		add( new FormWindow( "javax.swing.JDialog", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+			"$layoutConstraints": "hidemode 3"
+			"$columnConstraints": "[fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill]"
+			"$rowConstraints": "[][][][][][][][][]"
+		} ) {
+			name: "dialog2"
+			"title": "Inquiry into traffic accidents"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "text"
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 0 37 3"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button8"
+				"text": "exit"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button8MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 14 8"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 1735, 850 )
+			"size": new java.awt.Dimension( 785, 295 )
+		} )
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+			"$layoutConstraints": "hidemode 3"
+			"$columnConstraints": "[fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill]"
+			"$rowConstraints": "[][][][][][][][][][]"
+		} ) {
+			name: "frame3"
+			"title": "Municipal services (receive traffic plan)"
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField28"
+				"text": "number of card:"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "textField28MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 4 1 10 1"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField30"
+				"text": "password of card:"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "textField30MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 4 2 10 1"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField9"
+				"text": "123"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "textField9MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 4 3 10 1"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button21"
+				"text": "payment"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button21MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 16 6"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 950, 255 )
+			"size": new java.awt.Dimension( 400, 265 )
+		} )
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+			"$layoutConstraints": "hidemode 3"
+			"$columnConstraints": "[fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill]"
+			"$rowConstraints": "[][][][][][][][]"
+		} ) {
+			name: "frame6"
+			"title": "Road services (online payment of registered electric tolls)"
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField11"
+				"text": "number of card:"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "textField11MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 3 1 9 1"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField13"
+				"text": "password of card:"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "textField13MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 3 2 9 1"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField14"
+				"text": "50"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "textField14MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 3 3 9 1"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button26"
+				"text": "payment"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button26MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 13 5"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 1360, 255 )
+			"size": new java.awt.Dimension( 385, 250 )
+		} )
+		add( new FormWindow( "javax.swing.JDialog", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+			"$layoutConstraints": "hidemode 3"
+			"$columnConstraints": "[fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill]"
+			"$rowConstraints": "[][][][][][][][]"
+		} ) {
+			name: "dialog3"
+			"title": "Municipal services (receive traffic plan)"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label3"
+				"text": "text"
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 0 14 4"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button22"
+				"text": "EXIT"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button22MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 12 7"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 980, 530 )
+			"size": new java.awt.Dimension( 315, 180 )
+		} )
+		add( new FormWindow( "javax.swing.JDialog", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+			"$layoutConstraints": "hidemode 3"
+			"$columnConstraints": "[fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill]"
+			"$rowConstraints": "[][][][][][][][]"
+		} ) {
+			name: "dialog4"
+			"title": "ERROR"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label4"
+				"text": "text"
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 3 19 1"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 1310, 530 )
+			"size": new java.awt.Dimension( 325, 240 )
+		} )
+		add( new FormWindow( "javax.swing.JDialog", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+			"$layoutConstraints": "hidemode 3"
+			"$columnConstraints": "[fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill]"
+			"$rowConstraints": "[][][][][][][][][][][][][]"
+		} ) {
+			name: "dialog5"
+			"title": "Inquire a negative score and violation"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label5"
+				"text": "text"
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 0 12 11"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button24"
+				"text": "payment"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button24MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 11 12"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 1765, 240 )
+			"size": new java.awt.Dimension( 455, 410 )
+		} )
+		add( new FormWindow( "javax.swing.JDialog", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+			"$layoutConstraints": "hidemode 3"
+			"$columnConstraints": "[fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill]"
+			"$rowConstraints": "[][][][][][]"
+		} ) {
+			name: "dialog6"
+			"title": "officer error"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label6"
+				"text": "text"
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 1 16 4"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 5, 1335 )
+			"size": new java.awt.Dimension( 460, 250 )
+		} )
+		add( new FormWindow( "javax.swing.JDialog", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+			"$layoutConstraints": "hidemode 3"
+			"$columnConstraints": "[fill][fill][fill][fill][fill]"
+			"$rowConstraints": "[][][][][][][]"
+		} ) {
+			name: "dialog7"
+			"title": "driver error"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label7"
+				"text": "text"
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 2 5 1"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 320, 5 )
+			"size": new java.awt.Dimension( 200, 200 )
+		} )
+		add( new FormWindow( "javax.swing.JDialog", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+			"$layoutConstraints": "hidemode 3"
+			"$columnConstraints": "[fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill]"
+			"$rowConstraints": "[][][][][][]"
+		} ) {
+			name: "dialog8"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label8"
+				"text": "text"
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 1 18 3"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 525, 1315 )
+			"size": new java.awt.Dimension( 435, 270 )
+		} )
+		add( new FormWindow( "javax.swing.JDialog", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+			"$layoutConstraints": "hidemode 3"
+			"$columnConstraints": "[fill][fill][fill][fill][fill][fill][fill][fill][fill][fill]"
+			"$rowConstraints": "[][][][][][]"
+		} ) {
+			name: "dialog9"
+			"title": "accdinet regestrathion error"
+			addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "dialog9MouseClicked", true ) )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label9"
+				"text": "text"
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 2 10 3"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 1795, 1200 )
+			"size": new java.awt.Dimension( 295, 200 )
+		} )
+		add( new FormWindow( "javax.swing.JDialog", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+			"$layoutConstraints": "hidemode 3"
+			"$columnConstraints": "[fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill]"
+			"$rowConstraints": "[][][][]"
+		} ) {
+			name: "dialog10"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label10"
+				"text": "you cant  change  this item :))"
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 2 18 1"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 1005, 40 )
+			"size": new java.awt.Dimension( 265, 205 )
+		} )
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+			"$layoutConstraints": "hidemode 3"
+			"$columnConstraints": "[fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill]"
+			"$rowConstraints": "[][][][][][][][]"
+		} ) {
+			name: "frame8"
+			"title": "Inquire a negative score and violation"
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField24"
+				"text": "number of card:"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "textField24MouseClicked", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "textField24MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 3 1 7 1"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField25"
+				"text": "password of card:"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "textField25MouseClicked", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "textField25MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 3 2 7 1"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField31"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "textField31MouseClicked", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "textField31MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 3 3 7 1"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button23"
+				"text": "peyment"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button23MouseClicked", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button23MouseClicked", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 17 6"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 2230, 270 )
+			"size": new java.awt.Dimension( 415, 250 )
+		} )
+	}
+}
